@@ -1,3 +1,4 @@
+
 body {
 	font-family: "Work Sans", sans-serif;
 	font-size: 1.7vw
@@ -35,6 +36,9 @@ p {
 	margin-bottom: 30px;
 }
 
+span {
+	color: rgb(155, 0, 0);
+}
 /* .highlight, address {
 	color: green;
 } */
@@ -46,5 +50,7 @@ footer {
 }
 
 footer {
+	color: rgb(155, 0, 0);
 	opacity: 0.5;
 }
+
