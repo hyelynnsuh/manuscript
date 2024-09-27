@@ -1,9 +1,35 @@
-
 body {
-	color: rgb(15, 55, 17);
 	font-family: "Nunito Sans", sans-serif;
+	font-size: 24px
 }
 
-header {
-	/* changing the stylistic choices for the header specifically within the body */
+p {
+	margin-left: 110px;
+	max-width: 60ch;
+	text-align: justify;
+	line-height: 32px;
+	margin-bottom: 30px;
+	
+}
+
+.highlight, address {
+	color: green;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 1000;
+	margin-left: 110px;
+	max-width: 60ch;
+}
+
+address {
+	text-align: right;
+	margin-right: 130px;
+}
+
+body > header, 
+article,
+footer {
+	padding: 2em;
 }
