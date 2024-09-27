@@ -4,6 +4,10 @@ body {
 	font-size: 1.7vw
 }
 
+header {
+	border-bottom: thick double rgb(155, 0, 0)
+}
+
 .headerContainer {
 	margin-right: auto;
 	margin-left: auto;
@@ -16,6 +20,7 @@ h1 {
 }
 
 .h2container {
+	/* Added a second container to create a new line in the header and evenly align those words */
 	justify-content: space-between;
 	align-items: flex-end;
 	display: flex;
@@ -25,6 +30,7 @@ h1 {
 address {
 	text-decoration: underline;
 	margin-bottom: 3%;
+	/* Margin bottom had to be much less so that the different font sizes of the author and the title would not affect the margins */
 }
 
 p {
@@ -37,11 +43,9 @@ p {
 }
 
 span {
+	/* Added spans throughout the reading to highlight key words and phrases*/
 	color: rgb(155, 0, 0);
 }
-/* .highlight, address {
-	color: green;
-} */
 
 body > header, 
 article,
@@ -50,6 +54,7 @@ footer {
 }
 
 footer {
+	/* Wanted to give the footer a distinct design */
 	color: rgb(155, 0, 0);
 	opacity: 0.5;
 }
