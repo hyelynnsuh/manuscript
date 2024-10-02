@@ -47,18 +47,21 @@ p {
 }
 
 #quote {
+	/* As there is only one quote in this reading, I used an id tag instead of a class */
 	border: 4px rgb(155, 0, 0) double;
 	border-bottom-right-radius: 25px;
 	border-top-left-radius: 25px;
 	max-width: 60ch;
 	margin-right: auto;
 	margin-left: auto;
+	/* Added a border around my new blockquote */
 }
 
 #quote > p {
 	font-size: larger;
 	text-align: center;
 	margin-top: 20px;
+	/* There was no direct source for the quote so I did not add a citation */
 }
 
 span {
