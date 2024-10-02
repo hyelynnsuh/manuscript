@@ -33,6 +33,10 @@ address {
 	/* Margin bottom had to be much less so that the different font sizes of the author and the title would not affect the margins */
 }
 
+section {
+	margin-top: 20px;
+}
+
 p {
 	margin-right: auto;
 	margin-left: auto;
