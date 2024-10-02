@@ -1,21 +1,21 @@
 
 body {
 	font-family: "Work Sans", sans-serif;
-	font-size: 1.7vw
+	font-size: 1.2vw
 }
 
 header {
 	border-bottom: thick double rgb(155, 0, 0)
 }
 
-.headerContainer {
+.headercontainer {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 60ch;
 }
 
-h1 {
-	font-size: 8.2vw;
+h1, h2 {
+	font-size: 7.2vw;
 	font-weight: 1000;
 }
 
@@ -40,6 +40,13 @@ p {
 	text-align: justify;
 	line-height: 32px;
 	margin-bottom: 30px;
+}
+
+#quote {
+	text-align: center;
+	border: 4px rgb(155, 0, 0);
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
 }
 
 span {
