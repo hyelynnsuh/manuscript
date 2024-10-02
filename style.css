@@ -47,10 +47,18 @@ p {
 }
 
 #quote {
-	text-align: center;
-	border: 4px rgb(155, 0, 0);
+	border: 4px rgb(155, 0, 0) double;
 	border-bottom-right-radius: 25px;
 	border-top-left-radius: 25px;
+	max-width: 60ch;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#quote > p {
+	font-size: larger;
+	text-align: center;
+	margin-top: 20px;
 }
 
 span {
