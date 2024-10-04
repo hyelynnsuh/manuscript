@@ -12,6 +12,9 @@ header {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 60ch;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
 }
 
 h1, h2 {
@@ -19,17 +22,10 @@ h1, h2 {
 	font-weight: 1000;
 }
 
-.h2container {
-	/* Added a second container to create a new line in the header and evenly align those words */
-	justify-content: space-between;
-	align-items: flex-end;
-	display: flex;
-	flex-direction: row;
-}
-
 address {
 	text-decoration: underline;
 	margin-bottom: 3%;
+	white-space: nowrap;
 	/* Margin bottom had to be much less so that the different font sizes of the author and the title would not affect the margins */
 }
 
