@@ -25,7 +25,7 @@ h1, h2 {
 address {
 	text-decoration: underline;
 	margin-bottom: 3%;
-	/* white-space: nowrap; */
+	white-space: nowrap;
 	/* Margin bottom had to be much less so that the different font sizes of the author and the title would not affect the margins */
 }
 
