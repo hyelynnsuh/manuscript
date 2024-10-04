@@ -107,4 +107,9 @@ footer {
 	text-align: center;
 }
 
+.floatingbutton:hover {
+	background-color: rgb(155, 0, 0);
+	color: white;
+	transition: 0.2s;
+}
 
